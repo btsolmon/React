@@ -2,7 +2,7 @@ import { ProductCard } from "../components/ProductCard";
 
 const page = () => {
   return (
-    <div>
+    <div className="flex flex-wrap gap-3 justify-center">
       <ProductCard
         name={"Э. Баасандорж"}
         gender={"male"}
@@ -28,7 +28,7 @@ const page = () => {
         studentCode={"25BS52373"}
       />
       <ProductCard
-        name={"Л. Няамочир"}
+        name={"Л. Нямочир"}
         gender={"male"}
         email={"nyamochir.lkhamkhvv@gmail.com"}
         studentCode={"26BS98744"}
